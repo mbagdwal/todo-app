@@ -1,5 +1,27 @@
+body{
+  background: rgb(255,245,233);
+  background: linear-gradient(90deg, rgba(255,245,233,1) 0%, rgba(255,210,158,1) 100%);
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.card{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 2px #00000012;
+    padding: 20px;
+}
 .App {
-  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffeeda;
 }
 
 .App-logo {
